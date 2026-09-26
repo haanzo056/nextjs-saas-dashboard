@@ -1,5 +1,7 @@
 # Pulse
 
+[![CI](https://github.com/haanzo056/nextjs-saas-dashboard/actions/workflows/ci.yml/badge.svg)](https://github.com/haanzo056/nextjs-saas-dashboard/actions/workflows/ci.yml) ![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178C6?logo=typescript&logoColor=white) ![License](https://img.shields.io/github/license/haanzo056/nextjs-saas-dashboard)
+
 A multi-tenant product analytics dashboard. Users belong to workspaces with owner/admin/member roles, can invite teammates by link, and see traffic, signups and revenue for the workspace. Every membership change goes into a per-workspace audit log.
 
 Stack: Next.js 14 (App Router), TypeScript, Prisma + SQLite, NextAuth, TanStack Query, Recharts, Tailwind, zod. Vitest and Playwright for tests.
